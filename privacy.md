@@ -33,6 +33,10 @@ When you use **Find on map**, your search words, and your approximate area if yo
 
 Margin keeps no copy of your data anywhere else, and there is nothing for the developer to sell, share or hand over.
 
+## Diagnostics (off unless you turn it on)
+
+Margin has a hidden diagnostics mode for troubleshooting, turned on by tapping the version number in About seven times. While it's on, Margin keeps a short log on your device of the steps it took (for example "read the text, asked for a time, saved"), how long reading took, and any error codes. It never records the text of your events. The log leaves your device only if you tap **Share report** and send it yourself, for example by Mail or Messages. Turning diagnostics off deletes the log.
+
 ## Crash reports and beta feedback
 
 Margin doesn't include any crash-reporting or analytics tools. If you've chosen to share data with app developers in your device's settings, or you send feedback through TestFlight, Apple may pass crash reports, and any feedback you write, to the developer. These are controlled by Apple's settings and Apple's privacy policy, and are used only to fix problems.

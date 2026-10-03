@@ -25,3 +25,7 @@ That calendar is set to *Only when I'm going*. Change it in Calendar › Calenda
 
 **How do I delete my data?**
 Margin keeps its settings on your device only, so deleting the app deletes them. Events you added stay in your calendar until you delete them there.
+
+**Something went wrong and I'd like to send details.**
+Turn on diagnostics: Calendar › Calendars › tap *Version* seven times. Try the thing again, then open Diagnostics and tap **Share report** to email it. The report lists your device, permissions and the app's recent steps, never your event text. You can turn diagnostics off on the same screen.
+
