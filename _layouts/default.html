@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header>
+<a class="brand" href="{{ '/' | relative_url }}">Margin</a>
+<nav>
+<a href="{{ '/support/' | relative_url }}">Support</a>
+<a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+</nav>
+</header>
+<main>
+{{ content }}
+</main>
+<footer>
+<p>Margin is made by Sachin Bhalerao. Contact: <a href="mailto:orodaio0@gmail.com">orodaio0@gmail.com</a></p>
+</footer>
+</body>
+</html>

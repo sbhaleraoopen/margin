@@ -1,0 +1,36 @@
+/* Dark first, like the app; light adapts. */
+:root {
+  --ground: #0E0B19; --surface: #1B1630; --hairline: #3F3566;
+  --ink: #F4F1FF; --muted: #B7AFD6; --accent: #A88CFF;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --ground: #F6F4FE; --surface: #FFFFFF; --hairline: #D9D2F5;
+    --ink: #16121F; --muted: #5A5373; --accent: #5B3FE0;
+    color-scheme: light;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+}
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 24px; padding-bottom: 8px; flex-wrap: wrap; }
+.brand { font-weight: 800; font-size: 22px; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+nav { display: flex; gap: 20px; }
+nav a { color: var(--muted); text-decoration: none; font-weight: 600; }
+nav a:hover { color: var(--accent); }
+a { color: var(--accent); }
+h1 { font-size: clamp(32px, 7vw, 44px); line-height: 1.1; letter-spacing: -0.02em; margin: 32px 0 12px; }
+h2 { font-size: 22px; margin: 36px 0 8px; }
+p, li { color: var(--ink); }
+.lede { font-size: 20px; color: var(--muted); }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; font-size: 14px; color: var(--accent); margin: 0; }
+table { display: block; overflow-x: auto; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--hairline); min-width: 140px; }
+th { color: var(--muted); font-weight: 700; }
+.card { background: var(--surface); border: 1px solid var(--hairline); border-radius: 18px; padding: 4px 20px; margin: 16px 0; }
+footer { margin-top: 56px; padding-bottom: 40px; border-top: 1px solid var(--hairline); color: var(--muted); font-size: 15px; }
+footer p { color: var(--muted); }

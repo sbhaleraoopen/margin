@@ -1,0 +1,9 @@
+title: Margin
+description: Pencil in your week. A private calendar helper for iPhone and Mac.
+baseurl: /margin
+markdown: kramdown
+exclude: [README.md]
+permalink: pretty
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
