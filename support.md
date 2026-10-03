@@ -18,14 +18,14 @@ Unchecking a calendar in Apple's Calendar app only hides it there. To remove it 
 Margin still works. It reads events with fixed rules instead ("Read without AI"), or you can fill an event in by hand. You check every event before it's saved either way.
 
 **How do I see the setup screens again?**
-In Margin: Calendar › Calendars (the button at the top) › Set up again.
+In Margin: Settings (the gear at the top of any tab) › Set up again.
 
 **Some events stay hidden until I tap "I'm going."**
-That calendar is set to *Only when I'm going*. Change it in Calendar › Calendars.
+That calendar is set to *Only when I'm going*. Change it in Settings.
 
 **How do I delete my data?**
 Margin keeps its settings on your device only, so deleting the app deletes them. Events you added stay in your calendar until you delete them there.
 
 **Something went wrong and I'd like to send details.**
-Turn on diagnostics: Calendar › Calendars › tap *Version* seven times. Try the thing again, then open Diagnostics and tap **Share report** to email it. The report lists your device, permissions and the app's recent steps, never your event text. You can turn diagnostics off on the same screen.
+Turn on diagnostics: Settings › tap *Version* seven times. Try the thing again, then open Diagnostics and tap **Share report** to email it. The report lists your device, permissions and the app's recent steps, never your event text. You can turn diagnostics off on the same screen.
 

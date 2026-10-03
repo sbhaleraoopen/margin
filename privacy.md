@@ -35,7 +35,7 @@ Margin keeps no copy of your data anywhere else, and there is nothing for the de
 
 ## Diagnostics (off unless you turn it on)
 
-Margin has a hidden diagnostics mode for troubleshooting, turned on by tapping the version number in About seven times. While it's on, Margin keeps a short log on your device of the steps it took (for example "read the text, asked for a time, saved"), how long reading took, and any error codes. It never records the text of your events. The log leaves your device only if you tap **Share report** and send it yourself, for example by Mail or Messages. Turning diagnostics off deletes the log.
+Margin has a hidden diagnostics mode for troubleshooting, turned on by tapping the version number in Settings seven times. While it's on, Margin keeps a short log on your device of the steps it took (for example "read the text, asked for a time, saved"), how long reading took, and any error codes. It never records the text of your events. The log leaves your device only if you tap **Share report** and send it yourself, for example by Mail or Messages. Turning diagnostics off deletes the log.
 
 ## Crash reports and beta feedback
 
