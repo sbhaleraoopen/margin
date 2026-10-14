@@ -4,9 +4,9 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Effective from Margin's first public release.** Last updated October 3, 2026.
+**Effective from Margin's first public release.** Last updated October 14, 2026.
 
-Margin is a calendar helper for iPhone and Mac, made by Sachin Bhalerao. This policy explains what the app does with your information. The short version: **everything stays on your device**. Margin has no account, no servers, no ads, no analytics and no tracking. The developer never receives your calendar, your messages or anything else you put into the app.
+Margin is a calendar helper for iPhone and Mac, made by Sachin Bhalerao. This policy explains what the app does with your information. The short version: **everything stays on your devices and in your own iCloud**. Margin has no account, no servers, no ads, no analytics and no tracking. The developer never receives your calendar, your messages or anything else you put into the app.
 
 ## What Margin uses, and why
 
@@ -29,9 +29,10 @@ When you use **Find on map**, your search words, and your approximate area if yo
 ## What's stored, and where
 
 - **In your calendars and reminders:** only the events and reminders you choose to add. Each event Margin adds carries a short random code in its URL field, used to make sure a retried save never adds the same event twice. It contains no personal information. Anyone you share that calendar with can see it, as with any event field.
-- **On your device only:** your settings (default calendar, calendar colors, which calendars are "only when I'm going," your answers to those events, except Suggested ones as described above), recent places you picked on the map, and an unsaved draft. Deleting the app deletes them.
+- **In your own iCloud, so your iPhone and Mac match:** your settings (the calendar new events go to, calendar colors, which calendars are Join calendars, free-time rules, school reminders lists, Find a time's reminder choices) and your "I'm going" answers. They're stored in Apple's iCloud key-value storage under your Apple Account, which only your devices signed into it can read; answers for events more than 60 days past are removed. Calendars are named there by account and title (for example "iCloud, Family"). If you turn off Sync with iCloud (in setup or Settings), or the device isn't signed into iCloud, they stay on the device.
+- **On your device only:** recent places you picked on the map, an unsaved draft, and whether you chose to read without Apple Intelligence. Deleting the app deletes them.
 
-Margin keeps no copy of your data anywhere else, and there is nothing for the developer to sell, share or hand over.
+Margin keeps no copy of your data anywhere else (iCloud is Apple's, under [Apple's privacy policy](https://www.apple.com/legal/privacy/), and the developer can't read it), and there is nothing for the developer to sell, share or hand over.
 
 ## Diagnostics (off unless you turn it on)
 
