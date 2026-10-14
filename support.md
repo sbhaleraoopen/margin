@@ -21,7 +21,7 @@ Margin still works. It reads events with fixed rules instead ("Read without AI")
 In Margin: Settings (the gear at the top of any tab) › Set up again.
 
 **Some events stay hidden until I tap "I'm going."**
-That calendar is set to *Only when I'm going*. Change it in Settings.
+That calendar is a *Join calendar*. Change it in Settings.
 
 **How do I delete my data?**
 Margin keeps its settings on your device only, so deleting the app deletes them. Events you added stay in your calendar until you delete them there.
